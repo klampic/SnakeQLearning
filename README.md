@@ -28,6 +28,7 @@ This project also serves as a personal Python learning project, combining object
 
 2. **Agent (QLearningAgent)**  
    The agent chooses actions using **epsilon‑greedy policy** and updates the Q‑table using:
+   
    Q(s, a) = Q(s, a) + α * [r + γ * max(Q(s', a')) − Q(s, a)]
    
 3. **Training Loop (lomp.py)**  
